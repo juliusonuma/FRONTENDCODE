@@ -21,7 +21,7 @@ div{
 .shadow-text {
     text-shadow: grey 1px 1px;
 
-
+}
 /* element selector will float images to the right and a solid blue border */
 img{
     border-style: solid;
