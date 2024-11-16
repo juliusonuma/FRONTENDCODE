@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(140, 235, 179);
+}
+/* h1, h3, li are styled the same */
+h1, h3, li {
+    color: rgb(17, 3, 99);
+}
+/* h2, h4 are styled the same  */
+h2, h4 {
+    color: rgb(226, 15, 15);
+}
+/* hyperlinksstyled on all three pages */
+div{
+    background-color:rgb(98, 145, 233);
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+/* class selector for any text that will appear with a lightblue background */
+.shadow-text {
+    text-shadow: grey 1px 1px;
+
+
+/* element selector will float images to the right and a solid blue border */
+img{
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+   
+}
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 45%;
+   
+}
+td {
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
