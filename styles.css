@@ -1,33 +1,46 @@
+/* The same background for all 3 pages */
 body {
     background-color:rgb(140, 235, 179);
 }
-/* h1, h3, li are styled the same */
-h1, h3, li {
+/* h1, h3 are styled the same */
+h1, h3 {
     color: rgb(17, 3, 99);
+    text-shadow: rgb(202, 59, 59) 1px 1px; 
 }
-/* h2, h4 are styled the same  */
-h2, h4 {
-    color: rgb(226, 15, 15);
-}
+/* h2 styled with a lightblue color */
+ h2 {
+    color: rgb(71, 15, 226);
+    text-shadow: rgb(202, 37, 37) 1px 1px;
+} 
+/* p styled with a deepblue color */
+ p{
+    color:rgb(17, 3, 99);
+    
+} 
 /* hyperlinksstyled on all three pages */
 div{
-    background-color:rgb(98, 145, 233);
+    background-color:rgb(134, 163, 218);
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    font-family: sans-serif;
+    
 }
-/* class selector for any text that will appear with a lightblue background */
+/* class selector for any text that will appear with a red background */
 .shadow-text {
-    text-shadow: grey 1px 1px;
+    text-shadow: rgb(202, 37, 37) 1px 1px;
 
 }
-/* element selector will float images to the right and a solid blue border */
+#large-paragraph {
+    font-size: 20px; 
+    font-family: sans-serif;
+   
+}  
+/* element selector will float images to the right and a solid black border */
 img{
     border-style: solid;
     border-color: black;
-    border-radius: 2px;
-   
+    border-radius: 10px;
+    
 }
 table, th, td{
     border: 1px solid;
